@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Meu Site</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amarante&family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amarante&family=Capriola&family=Roboto:wght@100&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!--   Parte de navegacao -->
+  <header>
+    <nav>
+      <h1 style="font-family: 'Amarante';">Delícias da Carne Exóticas</h1>
+      <ul id="ulnav">
+        <li class='menuitem'> <a href='#nos'>Sobre</a></li>
+        <li class="menuitem"> <a href="#carnes">Carnes</a></li>
+        <li class="menuitem"> <a href="#localizacao">Localização</a></li>
+        <li class="menuitem"> <a href="#fale">Fale Conosco</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!--   Fim da navegacao -->
+
+
+  <!-- Inicio do main -->
+  <main>
+    <!--     Primeira parte do site -->
+    <section id="nos">
+      <h2 id="Hnos">Quem somos</h2>
+      <br>
+      <div>
+        <p id="nosP" style="font-size: 20px;">
+
+          Bem-vindo ao nosso açougue de carnes, onde a qualidade e o sabor se encontram! Somos uma equipe dedicada de
+          especialistas em carnes, comprometidos em fornecer os melhores produtos para os amantes de churrasco e
+          gastronomia.<br><br>
+
+          <strong style="font-size: 20px;">Nossa História:</strong><br><br>
+
+          Com uma tradição de 40 anos no ramo da carne, nossa empresa foi fundada com a visão de oferecer aos nossos
+          clientes uma experiência excepcional de compra e um deleite para os paladares mais exigentes. Desde o início,
+          nos esforçamos para ser referência em qualidade, variedade e atendimento personalizado.<br><br>
+
+          <strong style="font-size: 20px;">Seleção Premium:</strong><br><br>
+
+          Na escolha dos produtos, buscamos apenas as melhores carnes disponíveis. Trabalhamos em parceria com
+          fornecedores cuidadosamente selecionados, que compartilham dos nossos altos padrões de qualidade. Cada corte é
+          escolhido a dedo, levando em consideração a marmorização, a maciez e o sabor inigualáveis.<br><br>
+
+          <strong style="font-size: 20px;">Atendimento Personalizado:</strong><br><br>
+
+          Nosso time de especialistas em carnes está sempre pronto para ajudar e oferecer orientações personalizadas.
+          Entendemos que cada cliente tem suas preferências e necessidades únicas, e estamos aqui para garantir que sua
+          experiência seja excepcional. Desde a escolha do corte perfeito até dicas de preparo, estamos à disposição
+          para atender suas demandas.<br><br>
+
+          <strong>Compromisso com a Qualidade:</strong><br><br>
+
+          A qualidade é a nossa prioridade número um. Mantemos rigorosos controles de higiene e segurança alimentar em
+          todas as etapas do processo, desde a seleção e armazenamento até a embalagem e entrega. Além disso, investimos
+          em equipamentos de última geração para garantir que as carnes sejam tratadas com o máximo cuidado, preservando
+          sua frescura e sabor.<br><br>
+
+          <strong style="font-size: 20px;">Paixão pela Carne:</strong><br><br>
+
+          Somos verdadeiros apaixonados por carne e pelo prazer de saborear um bom churrasco. Nossa missão é
+          compartilhar essa paixão com você, proporcionando os cortes mais suculentos e saborosos para suas refeições.
+          Acreditamos que a carne de qualidade é uma experiência gastronômica que deve ser apreciada em sua plenitude.
+
+          Visite-nos hoje mesmo e descubra um mundo de sabores no nosso açougue de carnes. Estamos ansiosos para
+          recebê-lo e ajudá-lo a criar momentos inesquecíveis ao redor da mesa. Sinta-se à vontade para explorar nossa
+          variedade de cortes, conversar com nossa equipe especializada e encontrar a carne perfeita para satisfazer o
+          seu paladar exigente.
+
+          Seja bem-vindo ao mundo das carnes premium!
+        </p>
+      </div>
+    </section><br><br>
+    <!--     Fim da primeira parte do site -->
+
+
+    <!--     Segunda parte do site -->
+    <section id="carnes">
+      <h2 id="Hcarnes">Nossos cortes</h2><br><br>
+
+      <div class="container">
+        <h3 style="font-size: 25px; font-family: 'Amarante';">Cortes nobres</h3><br>
+        <button class="arrow-left control" aria-label="Previous image">◀</button>
+        <button class="arrow-right control" aria-label="Next Image">▶</button>
+        <div class="gallery-wrapper">
+          <div class="gallery">
+            <img src="imgs/ancho.jpeg" alt="Bife Ancho" class="item current-item" title="Bife Ancho">
+            <img src="imgs/chorizo.jpeg" alt="Bife de Chorizo" class="item current-item" title="Bife de Chorizo">
+            <img src="imgs/short ribs.jpeg" alt="Short Ribs" class="item current-item" title="Short Ribs">
+            <img src="imgs/tbone.jpeg" alt="T-Bone" class="item current-item" title="T-Bone">
+            <img src="imgs/primerib.jpeg" alt="Prime Rib" class="item current-item" title="Prime Rib">
+          </div>
+        </div>
+      </div>
+
+      <br>
+      <p><strong>Bife Ancho</strong><br> O bife ancho é um corte popular nos países da América do Sul, principalmente na
+        Argentina.<br> No
+        Brasil, a carne é chamada de filé ou bife de costela e, na França, é o famoso entrecôte (ou entrecosto). É uma
+        peça macia e muito suculenta!<br> Retirada da parte dianteira do contrafilé, geralmente, possui ótimo nível de
+        marmoreio. O nome ancho
+        significa
+        largo,<br> em português, e se dá porque o bife deve ter no mínimo 4 cm. É uma carne que merece fazer parte de
+        seu
+        churrasco!
+      </p><br><br>
+
+      <p><strong>Bife de Chorizo</strong><br> O bife de chorizo é outro corte muito apreciado pelos argentinos. A peça,
+        retirada do centro do
+        contrafilé,<br> também se destaca pela maciez e tem uma camada de gordura na lateral.
+
+        A carne tem menos marmoreio que o vizinho bife ancho,<br> já que sua gordura fica concentrada na lateral, e não
+        entre os músculos do animal.<br> O corte é largo e pode chegar até 6 cm. É uma peça saborosa, que funciona muito
+        bem
+        para o churrasco!</p><br><br>
+
+      <p><strong>Short Ribs</strong><br> O short rib é um corte dianteiro, também chamado no Brasil de acém com osso. A
+        carne possui nível
+        alto de marmoreio,<br> responsável por sua maciez.
+
+        A extensão de suas fibras e a gordura entremeada tornam a carne uma excelente opção para o churrasco,<br> já que
+        proporcionam textura e sabor incríveis.</p><br><br>
+
+      <p><strong>T-Bone</strong><br> O T-Bone é um corte bem popular nos Estados Unidos, mas que também faz sucesso nas
+        terras brasileiras.<br>
+        Seu nome se dá por conta do osso em formato de T no qual a carne está ligada.
+
+        Retirada da parte traseira do animal,<br> a peça é composta por filé-mignon de um lado e contrafilé do outro. A
+        carne combina nível médio<br> de marmoreio com camadas de gordura laterais, que a tornam muito macia e
+        supersaborosa.</p><br><br>
+
+      <p><strong>Prime Rib</strong><br> O prime rib é a versão com osso de uma carne já citada, o bife ancho. A peça
+        conta com bom marmoreio,<br>
+        o que a torna macia e garante um sabor irresistível.
+
+        O osso é responsável<br> por deixar o sabor ainda mais marcante, além de conferir um ótimo visual. É uma carne
+        que
+        irá elevar o nível do seu churrasco!</p><br><br>
+      <div class="container2">
+        <h3 style="font-size: 25px; font-family: 'Amarante';">Cortes Exóticos</h3><br>
+        <button class="arrow-left2 control2" aria-label="Previous image">◀</button>
+        <button class="arrow-right2 control2" aria-label="Next Image">▶</button>
+        <div class="gallery-wrapper2">
+          <div class="gallery2">
+            <img src="imgs/avestruz.jpeg" alt="Carne de Avestruz" class="item2 current-item2" title="Carne Avestruz">
+            <img src="imgs/coelho.jpeg" alt="Carne de Coelho" class="item2 current-item2" title="Carne de Coelho">
+            <img src="imgs/pato.jpeg" alt="Carne de Pato" class="item2 current-item2" title="Carne de Pato">
+            <img src="imgs/javali.jpeg" alt="Carne de Javali" class="item2 current-item2" title="Carne de Javali">
+            <img src="imgs/jacare.jpg" alt="Carne de Jacare" class="item2 current-item2" title="Carne de Jacare">
+          </div>
+        </div>
+      </div>
+      <br>
+      <p><strong>Avestruz</strong><br> A carne de avestruz é magra porque, apesar de ser vermelha, a gordura fica
+        concentrada na pele, assim
+        como nas outras aves.<br>
+
+        A carne de avestruz também é mais natural, pois os animais são criados sem muitos medicamentos ou hormônios</p>
+      <br><br>
+
+      <p><strong>Coelho</strong><br> A carne do coelho é branca, macia e extremamente saborosa, possui um baixíssimo
+        teor de gordura e
+        colesterol<br> e com mais proteína que as demais, um alimento quase perfeito, por isso é tão apreciada na alta
+        gastronomia européia,<br> principalmente na França, onde o coelho é mais consumido que o frango.</p><br><br>
+
+      <p><strong>Pato</strong><br> De textura delicada e sabor marcante, o Pato Inteiro é uma das mais sofisticadas
+        iguarias da culinária
+        internacional,<br> mesmo sendo simples de preparar. É uma ótima fonte de consumo de proteínas de alto valor,
+        além de
+        ser uma carne extremamente saborosa.</p><br><br>
+
+      <p><strong>Javali</strong><br> A carne do javali tem um sabor próprio, exótico, típico de animais de caça; não
+        apresenta as estrias
+        gordurosas<br> presentes na carne de suíno e tem uma cor vermelha forte, mais escura que a de porco doméstico e
+        muito mais saborosa.</p><br><br>
+
+      <p><strong>Jacaré</strong><br> A carne de jacaré é uma carne muito saborosa. Para quem ainda não provou, ela tem a
+        textura parecida com
+        a do peito de frango e um<br> sabor similar ao do peixe. É uma carne branca, com 0% de colesterol, rica em
+        proteína
+        e que não recebe nenhum tipo de componente químico
+      </p><br><br>
+    </section>
+    <!--     Fim da segunda parte do site -->
+  </main>
+  <!--   Fim do main do site -->
+
+
+  <!-- Rodape -->
+  <footer>
+    <section id="localizacao">
+      <br>
+      <h2 id="Hlocalizacao">Localização</h2>
+
+      <div id='locationdiv'>
+        <p>Rua Voluntários da Pátria, 340 loja F - Botafogo - Rio de Janeiro - RJ</p>
+
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14695.519924700038!2d-43.1937555!3d-22.9546468!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997fe09f028e33%3A0x26e83ef7e4032ed2!2sDel%C3%ADcias%20da%20Carne%20Ex%C3%B3ticas%20e%20Cortes%20Argentinos%20e%20Uruguaios!5e0!3m2!1spt-BR!2sbr!4v1684263036796!5m2!1spt-BR!2sbr"
+          width="1400" height="450" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+    <section id="fale">
+      <h2 id="Hfale">Meios para contato</h2>
+      <br>
+      <div id="container-flex">
+        <form action="">
+          <div id='formulario'>
+
+            <h3 style="font-family: 'Amarante';">Formulário</h3>
+            <input id="nome" type="text" name="nome-*" value="" placeholder="Nome *" maxlength="100" aria-label="Nome *"
+              aria-invalid="false" style="width: 200px; margin-bottom: 5px; border: 1px solid black;">
+
+            <input id="telefone" type="text" placeholder="Telefone *"
+              style="width: 200px; margin-bottom: 5px; border: 1px solid black;">
+            <input id="email" type="email" name="email" value="" placeholder="Email *"
+              maxlength="250" aria-label="Email *" style="width: 200px; margin-bottom: 5px; border: 1px solid black;">
+
+            <textarea placeholder="Mensagem" aria-invalid="true"
+              style="width: 300px; height: 100px; margin-bottom: 10px; border: 1px solid black;"></textarea>
+
+
+
+            <button style='width: 285px; border: 1px solid black; display: flex;
+              white-space: nowrap; flex-grow: 1;' onclick="validarNome(), validarEmail(), validarTelefone(), validarMensagem()">Enviar</button>
+        </form>
+      </div>
+
+      <!-- Radio button -->
+      <div id="pref">
+        <h3 style="font-family: 'Amarante';">Preferências</h3>
+        <div class="radio">
+          <div class="radioIn"></div>
+          <p style="margin: -6px 0 0 30px;"> Tradicionais</p>
+        </div>
+        <div class="radio">
+          <div class="radioIn"></div>
+          <p style="margin: -5px 0 0 30px;"> Exóticas</p>
+        </div>
+        <div class="radio">
+          <div class="radioIn"></div>
+          <p style="margin: -5px 0 0 30px;"> Ambas</p>
+        </div>
+        <button style='border: 1px solid black; display: flex;
+              white-space: nowrap; flex-grow: 1;' onclick="validarRadio()">Enviar</button>
+      </div>
+
+      <!-- Select DropDown -->
+      <div id="favorito">
+        <h3 style="font-family: 'Amarante';">Tipos Favoritos</h3>
+        <div class="select">
+          <div class="funcionar">Selecione uma opção</div>
+          <div class="opcoes">
+            <div class="opcao">Bovina</div>
+            <div class="opcao">Suína</div>
+            <div class="opcao">Aves</div>
+            <div class="opcao">Frutos do Mar</div>
+            <div class="opcao">Outros</div>
+          </div>
+        </div>
+        <button style='border: 1px solid black; display: flex;
+              white-space: nowrap; flex-grow: 1;' onclick="validarTipo()">Enviar</button>
+      </div>
+
+      <!-- Checkbox -->
+      <div id="coms">
+        <h3 style="font-family: 'Amarante';">Comunicados:</h3>
+        <label class="label">
+          <div class="checkbox" onclick='marcaCheckbox(this)'>
+            <div class="checkboxIn"></div>
+          </div>
+          Email
+        </label>
+        <label class="label">
+          <div class="checkbox" onclick='marcaCheckbox(this)'>
+            <div class="checkboxIn"></div>
+          </div>
+          SMS
+        </label>
+        <label class="label">
+          <div class="checkbox" onclick='desmarcarCheckbox(this)'>
+            <div class="checkboxIn"></div>
+          </div>
+          Todos/Desmarcar
+        </label>
+      </div>
+      <div id='funcionamento'>
+
+        <h3 style="font-family: 'Amarante';">Funcionamento</h3>
+        Segunda/sexta 7:00 às 19:00
+        <br>
+        Sábados de 7:00 às 15:00
+
+      </div>
+      </div>
+      <p id="direitos">Todos os direitos reservados</p>
+    </section>
+  </footer>
+  <!-- Fim do Rodape -->
+
+
+
+
+  <script src="script.js"></script>
+
+
+
+</body>
+
+</html>
